@@ -123,4 +123,4 @@ dist
 .pnp.*
 
 # Vite build output
-dist
+distpackage-lock.json
