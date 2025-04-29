@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+financial-literacy-app/node_modules/
+financial-literacy-app/dist/
+financial-literacy-app/.env
+financial-literacy-app/.env.*
+!financial-literacy-app/.env.example # Keep example env if you have one
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Etc.
+logs
+*.log
