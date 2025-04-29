@@ -1,4 +1,4 @@
-// financial-literacy-app/vite.config.js
+// financial-literacy-app/vite.config.ts
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -17,13 +17,6 @@ export default defineConfig(({ mode }) => {
     server: { // Optional: Define server options for local dev
         port: 5173, // Default port
         strictPort: true, // Fail if port is already in use
-        // proxy: { // Optional: Setup proxy if needed (alternative to CORS)
-        //   '/api': {
-        //     target: 'http://localhost:8000', // Your local backend
-        //     changeOrigin: true,
-        //     rewrite: (path) => path.replace(/^\/api/, ''), // Remove /api prefix if backend doesn't use it
-        //   }
-        // }
     }
   }
 })
